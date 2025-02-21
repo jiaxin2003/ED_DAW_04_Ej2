@@ -2,7 +2,7 @@ public class CostePersonal {
 
 	static float CosteDelPersonal(Trabajador[] trabajadores) {
 		if(trabajadores == null){
-			throw new NullPointerException("No hay trabajadores")
+			throw new NullPointerException("No hay trabajadores");
 		}
 
 		float costeFinal = 0;
